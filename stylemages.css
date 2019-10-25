@@ -1,0 +1,59 @@
+body{
+    font-family: arial;
+    background: tomato;
+}
+
+.contenedor{
+    margin: auto;
+    display: table;
+}
+
+h1 {
+    float: left;
+    color: #fff;
+    position: relative;
+    font-size: 1em;
+}
+
+h1 span{
+    position: absolute;
+    right: 0;
+    width: 0;
+    background: tomato;
+    border-left: 1px solid #000;
+
+    animation: maquina 5s infinite alternate steps(35);
+}
+
+@keyframes maquina {
+from{
+    width: 100%;
+}
+to{
+    width: 0;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
