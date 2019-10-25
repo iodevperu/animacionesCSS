@@ -1,6 +1,6 @@
 body{
     font-family: arial;
-    background: tomato;
+    background: grey;
 }
 
 .contenedor{
@@ -19,7 +19,7 @@ h1 span{
     position: absolute;
     right: 0;
     width: 0;
-    background: tomato;
+    background: grey;
     border-left: 1px solid #000;
 
     animation: maquina 5s infinite alternate steps(35);
